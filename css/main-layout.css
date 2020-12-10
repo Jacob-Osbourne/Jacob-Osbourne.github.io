@@ -1,0 +1,103 @@
+body {
+    background-image: url(..//images/background.png);
+   }
+
+#container{
+    margin: 0 auto;
+    width: 960px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+#profile {
+    margin-top: 0px;
+    background: #4c88d69d;
+    background-image: url(../images/header-shadow.png);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+.about {
+    float: left;
+    margin-top: 15px;
+    width: 750px;
+    margin-left: 20px;
+}
+
+.about .photo-inner {
+
+ float: left;
+ background: url(../images/photo-inner.png) no-repeat;
+ width: 360px;
+ height: 365px;
+ padding: 18px 0 0 40px;
+}
+
+.about h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color:white;
+    line-height: 34px;
+    font-family: 'Jura', sans-serif;
+    margin-top: 15px;
+}
+
+.about h3 {
+   font-weight: 800;
+   margin-top: 5px;
+   font-size:20px;
+   color: white;
+   line-height: 24px;
+   font-family: 'Jura', sans-serif;
+   margin-left: 325px;
+}
+
+.about p {
+    font-size: 16px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Jura', sans-serif;
+    margin-left: 325px;
+}
+
+header {
+    height: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.tabs{
+    height: 117px;
+    z-index: 100;
+    margin-left: 150px;
+}
+
+.tabs li{
+    float: left;
+    
+}
+
+.tabs li > a{
+    width: 115px;
+    display: inline-block;
+    font-size:15px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Jura', sans-serif;
+    line-height: 35px;
+    text-decoration: none;
+    margin-right: 35px;
+
+}
+
+.tabs li > a > i{
+    font-size: 45px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
