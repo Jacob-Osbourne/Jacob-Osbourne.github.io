@@ -12,7 +12,6 @@ body {
 #profile {
     margin-top: 0px;
     background: #4c88d69d;
-    background-image: url(../images/header-shadow.png);
     background-position: center bottom;
     background-repeat: repeat-x;
     overflow: hidden;
@@ -28,7 +27,6 @@ body {
 .about .photo-inner {
 
  float: left;
- background: url(../images/photo-inner.png) no-repeat;
  width: 360px;
  height: 365px;
  padding: 18px 0 0 40px;
@@ -64,12 +62,19 @@ body {
 }
 
 header {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
     height: 10px;
+    background-position: center;
     overflow: hidden;
     margin-bottom: 5px;
 }
 
 .tabs{
+    
     height: 117px;
     z-index: 100;
     margin-left: 150px;

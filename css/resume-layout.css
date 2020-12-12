@@ -1,0 +1,58 @@
+#container{
+    margin: 0 auto;
+    width: 960px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+#resume {
+    margin-top: 0px;
+    background: #4c88d69d;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+#contacts h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+}
+
+
+#contactInfo {
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    color: white;
+}
+
+.line{
+    border-top: 2px solid white;
+    width: 500px;
+    margin: 1em auto;
+}
+
+#contacts h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+#skillsTechnical {
+    font-size: 13px;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-family: 'Jura', sans-serif;
+}
+
+#skillsTechnical span {
+    width: 300px;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 125px;
+    margin-top: 5px;
+    font-family: 'Jura', sans-serif;
+}
+
