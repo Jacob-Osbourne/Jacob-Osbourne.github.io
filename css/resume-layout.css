@@ -7,7 +7,7 @@
 
 #resume {
     margin-top: 0px;
-    background: #4c88d69d;
+    background: #0b4ea59d;
     background-position: center bottom;
     background-repeat: repeat-x;
     overflow: hidden;
@@ -15,6 +15,7 @@
 
 #contacts h1{
     font-size: 60px;
+    
     color: white;
     font-family: 'Jura', sans-serif;
     text-align: center;
@@ -33,26 +34,167 @@
     margin: 1em auto;
 }
 
-#contacts h2{
-    font-size: 20px;
+#skillsTitle{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Jura', sans-serif;
 }
 
-#skillsTechnical {
+#skillsTechnical li{
+    text-align: center;
+    color: white;
     font-size: 13px;
-    margin-left: 40px;
     margin-top: 5px;
     font-family: 'Jura', sans-serif;
 }
 
 #skillsTechnical span {
-    width: 300px;
-    display: inline-block;
+    color: white;
     font-size: 18px;
-    margin-left: 125px;
     margin-top: 5px;
     font-family: 'Jura', sans-serif;
 }
 
+#skillsInfo li {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+
+}
+
+#workExpTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+}
+
+#experienceGroup {
+    display: flex;
+}
+
+#workExperience {
+    width: 200px;
+
+}
+#workExperience2 {
+
+    width: 200px;
+
+}
+#workExperience3 {
+
+    width: 200px;
+
+}
+
+#workExperienceBox{
+    flex: 1;
+}
+#workExperienceBox2{
+    flex: 1;
+}
+
+
+#experienceGroup li h1 {
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+
+}
+
+#experienceGroup li h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+
+}
+
+#experienceGroup li h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+
+}
+
+#experienceGroup li li {
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+
+}
+
+
+#edTitle {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+#edStuff h3{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+#edStuff h4{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+}
+
+#edStuff h5{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Jura', sans-serif;
+}
+
+#edStuff h6{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Jura', sans-serif;
+}
+
+#edStuff li{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Jura', sans-serif;
+}
+
+#education{
+    margin-bottom: 40px;
+}

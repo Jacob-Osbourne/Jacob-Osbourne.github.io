@@ -11,7 +11,7 @@ body {
 
 #profile {
     margin-top: 0px;
-    background: #4c88d69d;
+    background: #0b4ea59d;
     background-position: center bottom;
     background-repeat: repeat-x;
     overflow: hidden;
@@ -74,10 +74,10 @@ header {
 }
 
 .tabs{
-    
+    margin-left: 175px;
     height: 117px;
     z-index: 100;
-    margin-left: 150px;
+
 }
 
 .tabs li{
