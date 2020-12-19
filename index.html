@@ -16,6 +16,10 @@
         <link rel="stylesheet" href="css/main-layout.css">
         
         <link rel="stylesheet" href="css/resume-layout.css">
+        
+        <link rel="stylesheet" href="css/portfolio-layout.css">
+        
+        <link rel="stylesheet" href="css/contact-layout.css">
 
     </head>
     <body>
@@ -229,9 +233,40 @@
                 </section>
 
                 <section id="contact">
-                    <p>
-                        
-                    </p>
+                    <div id="contactInformation">
+                        <h1 id="info">Contact Information</h1>
+                        <ul id="infoBlock">
+                            <li><span id="contactPhone">Phone:</span> 519-819-3616</li>
+                            <li><span id="contactEmail">Email:</span> josbourne4@hotmail.ca</li>
+                            <li><span id="contactLinkedIn">LinkedIn:</span> <a href="https://www.linkedin.com/in/jacob-osbourne-aaab82105/"><i class="fab fa-linkedin"></i></a></li>
+                            <li><span id="contactGithub">Github:</span> <a href="https://github.com/jacob-osbourne"><i class="fab fa-github-square"></i></a></li>
+                        </ul>
+                        <div class="vertLine"></div>
+                    </div>
+                    <div id="contactForm">
+                        <h1 id="contactTitle">Contact Me</h1>
+                        <form action="https://formspree.io/f/xknppwqw" method="POST">
+                            <div id="formName">
+                                <input type="text" name="name" placeholder="Name" required>
+                            </div>
+
+                            <div id="formEmail">
+                                    <input type="email" name="sender" placeholder="Email" required>
+                            </div>
+
+                            <div id="formMessage">
+                                <label>
+                                    Message
+                                </label>
+                                <textarea name="message" cols="60" rows="8" required></textarea>
+                            </div>
+
+                            <div id="formSubmit">
+                                <input type="submit" value="Submit" class="button transition">
+                            </div>
+
+                          </form>
+                    </div>
                 </section>
 
             </section>
