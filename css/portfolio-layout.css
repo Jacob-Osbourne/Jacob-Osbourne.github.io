@@ -1,0 +1,92 @@
+#container{
+    margin: 0 auto;
+    width: 960px;
+    height: 700px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+#portfolio {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 960px;
+    background: #074facb9;
+    padding: 25px 50px 40px;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+#portfolioList img{
+    height: 264px;
+    width: 407px;
+    margin-top: 18px;
+}
+
+#projInfo {
+    display: flex;
+}
+
+.vline{
+    border-left: 2px solid white;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Jura', sans-serif;
+}
+
+h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+#portfolioList li{
+    flex: left;
+    margin-right: 25px;
+    text-align: left;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    width: 860px;
+}
+
+#portfolioList img:hover{
+    opacity: 0.5;
+}
+
+
+#portfolioList #projTitle{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+
+.desc{
+    color: white;
+    font-family: 'Jura', sans-serif;
+    margin-top: 18px;
+    font-size: 15px;
+}
+
+.desc a {
+    font-weight: 700;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+
+.desc a:hover{
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.hidden-images{
+    display: none;
+}
